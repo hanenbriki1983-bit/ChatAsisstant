@@ -2,3 +2,71 @@
 .venv/
 __pycache__/
 .tmp/
+
+# Python build/test artifacts
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Streamlit/local app state
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Data/model artifacts (often large)
+data/
+datasets/
+models/
+checkpoints/
+artifacts/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.db
+*.sqlite
+*.sqlite3
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Large media files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.flac
